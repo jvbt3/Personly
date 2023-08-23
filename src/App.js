@@ -1,27 +1,25 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 import Home from './components/pages/Home';
-import Criar from './components/pages/Create';
+import Pessoa from './components/pages/Pessoa';
 import Contato from './components/pages/Contato';
 import Container from './components/latouys/Container';
+import Navbar from './components/latouys/Navbar';
+import Footer from './components/latouys/Footer';
 
 
 
 function App() {
   return (
     <Router>
-      <ul>
-        <Link to="/">Home</Link>
-        <Link to="/criar">Criar</Link>
-        <Link to="/contato">Contato</Link>
-      </ul>
+      <Navbar />
       <Container customClass="min-height">
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/criar' element={<Criar />} />
+          <Route path='/pessoa' element={<Pessoa />} />
           <Route path='/contato' element={<Contato />} />
         </Routes>
       </Container>
-      <footer>footer</footer>
+      <Footer />
     </Router>
   );
 }
