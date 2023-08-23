@@ -1,6 +1,6 @@
 .footer {
     position: absolute;
-    background-color: #222;
+    background-color: #8000a7;
     color: #FFF;
     padding: 2em;
     text-align: center;
@@ -22,6 +22,7 @@
 
 .social_list li:hover {
     color: #ffbb33;
+    transition: 0.5s;
 }
 
 .social_list svg {

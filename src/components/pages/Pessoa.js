@@ -1,7 +1,7 @@
-function Pessoa() {
+function Funcionario() {
     return (
-        <h1>Cadastrar Pessoa</h1>
+        <h1>Funcionario</h1>
     )
 }
 
-export default Pessoa
+export default Funcionario
