@@ -1,5 +1,5 @@
 import personly from '../../img/personly.png'
-import BtnFuncionario from '../latouys/BtnFuncionario'
+import BtnFuncionario from '../layout/BtnFuncionario'
 import styles from './Home.module.css'
 
 function Home() {
