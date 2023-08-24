@@ -5,13 +5,13 @@ import logo from '../../img/personly2.png'
 
 function Navbar() {
     return (
-        <nav class={styles.navbar}>
+        <nav className={styles.navbar}>
             <Container>
                     <Link to = "/">
-                    <img class={styles.img} src={logo} alt='costs_logo'></img>
+                    <img className={styles.img} src={logo} alt='costs_logo'></img>
                     </Link>
                 <ul>
-                    <ul class={styles.list}>
+                    <ul className={styles.list}>
                         <li className={styles.item}><Link to="/">Home</Link></li>
                         <li className={styles.item}><Link to="/funcionarios">Funcionários</Link></li>
                         <li className={styles.item}><Link to="/contato">Contato</Link></li>
